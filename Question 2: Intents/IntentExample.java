@@ -20,8 +20,8 @@ public class IntentExample {
 	impI.putExtra(Intent.EXTRA_TEXT, query);
 
 	try {
-	startActivity(impI);
+		startActivity(impI);
 	} catch (ActivityNotFoundException e) {
-
+		//Deal With Error
 	}
 }
