@@ -1,5 +1,5 @@
 
-public class DecayDriver extends Gamma {
+public class DecayDriver{
 
 	public static void main(String[] args) {
 		Gamma gammaDecay = new Gamma();
