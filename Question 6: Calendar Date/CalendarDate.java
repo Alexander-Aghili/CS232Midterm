@@ -9,7 +9,6 @@ public class CalendarDate implements Comparable<CalendarDate>{
 		this.month = 5;
 		Random rand = new Random();
 		this.day = rand.nextInt(30) + 1;
-		System.out.println(day);
 	}
 
 	public CalendarDate(int month) {
@@ -17,7 +16,6 @@ public class CalendarDate implements Comparable<CalendarDate>{
 			this.month = month;
 		Random rand = new Random();
 		this.day = rand.nextInt(30) + 1;
-		System.out.println(day);
 	}
 	
 	public boolean equals(Object obj) {
@@ -31,8 +29,6 @@ public class CalendarDate implements Comparable<CalendarDate>{
 	
 	@Override
 	public int compareTo(CalendarDate otherDate) {
-		System.out.println("Month: " + otherDate.month);
-		System.out.println("Day: " + otherDate.day);
 		if(this.equals(otherDate)) {
 			return 0;
 		} else {
