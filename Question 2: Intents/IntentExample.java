@@ -1,4 +1,4 @@
-
+//Obviously the Intents would be within an onCreate method or button click, some type of method like that.
 public class IntentExample {
 	
 	//An Explicit intent is used to launch a component of the same app.
